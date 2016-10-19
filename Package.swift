@@ -25,6 +25,6 @@ let package = Package(
     name: "Erik",
     dependencies: [
         .Package(url: "https://github.com/tid-kijyun/Kanna.git", majorVersion: 2),
-        .Package(url: "https://github.com/Thomvis/BrightFutures.git", majorVersion: 5)
+        .Package(url: "https://github.com/codynhat/BrightFutures.git", majorVersion: 5)
     ]
 )
