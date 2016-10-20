@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35C578F1DB863CE00E097ED /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C578C1DB863CE00E097ED /* Document.swift */; };
+		C35C57901DB863CE00E097ED /* Erik.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C578D1DB863CE00E097ED /* Erik.swift */; };
+		C35C57911DB863CF00E097ED /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C578E1DB863CE00E097ED /* LayoutEngine.swift */; };
 		C42828E21BF9EDE1005EC7C3 /* Erik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42828D71BF9EDE1005EC7C3 /* Erik.framework */; };
 		C42828E71BF9EDE1005EC7C3 /* ErikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42828E61BF9EDE1005EC7C3 /* ErikTests.swift */; };
-		C42828F61BF9EEAF005EC7C3 /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42828F51BF9EEAF005EC7C3 /* LayoutEngine.swift */; };
 		C43178821BFA3E1A00C04250 /* ErikOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = C43178811BFA3E1A00C04250 /* ErikOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C43178891BFA3E2200C04250 /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42828F51BF9EEAF005EC7C3 /* LayoutEngine.swift */; };
-		C463134C1BFCE3A50078FB9D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463134B1BFCE3A50078FB9D /* Document.swift */; };
-		C463134D1BFCE3FF0078FB9D /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C463134B1BFCE3A50078FB9D /* Document.swift */; };
 		C46F2E141DACF200006A036D /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F2E101DACF200006A036D /* BrightFutures.framework */; };
 		C46F2E151DACF200006A036D /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F2E101DACF200006A036D /* BrightFutures.framework */; };
 		C46F2E171DACF200006A036D /* FileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F2E111DACF200006A036D /* FileKit.framework */; };
@@ -28,8 +27,6 @@
 		C46F2E251DACF210006A036D /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F2E1E1DACF210006A036D /* Kanna.framework */; };
 		C46F2E261DACF210006A036D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F2E1F1DACF210006A036D /* Result.framework */; };
 		C46F2E271DACF210006A036D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F2E1F1DACF210006A036D /* Result.framework */; };
-		C4D50DDD1BFB51130053B624 /* Erik.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D50DDC1BFB51130053B624 /* Erik.swift */; };
-		C4D50DDE1BFB51130053B624 /* Erik.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D50DDC1BFB51130053B624 /* Erik.swift */; };
 		C4D50DEC1BFB58EE0053B624 /* Erik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C431787F1BFA3E1A00C04250 /* Erik.framework */; };
 		C4D50DF21BFB59030053B624 /* ErikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42828E61BF9EDE1005EC7C3 /* ErikTests.swift */; };
 		C4E4B2751D8EE60A009D8AA7 /* Erik.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E4B2731D8EE60A009D8AA7 /* Erik.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,15 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C35C578C1DB863CE00E097ED /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Erik/Document.swift; sourceTree = "<group>"; };
+		C35C578D1DB863CE00E097ED /* Erik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Erik.swift; path = Erik/Erik.swift; sourceTree = "<group>"; };
+		C35C578E1DB863CE00E097ED /* LayoutEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutEngine.swift; path = Erik/LayoutEngine.swift; sourceTree = "<group>"; };
 		C42828D71BF9EDE1005EC7C3 /* Erik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Erik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42828E11BF9EDE1005EC7C3 /* ErikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42828E61BF9EDE1005EC7C3 /* ErikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ErikTests.swift; path = ErikTests/ErikTests.swift; sourceTree = SOURCE_ROOT; };
 		C42828E81BF9EDE1005EC7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C42828F51BF9EEAF005EC7C3 /* LayoutEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutEngine.swift; sourceTree = "<group>"; };
 		C431787F1BFA3E1A00C04250 /* Erik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Erik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43178811BFA3E1A00C04250 /* ErikOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErikOSX.h; sourceTree = "<group>"; };
 		C43178831BFA3E1A00C04250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C463134B1BFCE3A50078FB9D /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		C46F2E101DACF200006A036D /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
 		C46F2E111DACF200006A036D /* FileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileKit.framework; path = Carthage/Build/iOS/FileKit.framework; sourceTree = "<group>"; };
 		C46F2E121DACF200006A036D /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kanna.framework; path = Carthage/Build/iOS/Kanna.framework; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 		C46F2E1D1DACF210006A036D /* FileKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileKit.framework; path = Carthage/Build/Mac/FileKit.framework; sourceTree = "<group>"; };
 		C46F2E1E1DACF210006A036D /* Kanna.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kanna.framework; path = Carthage/Build/Mac/Kanna.framework; sourceTree = "<group>"; };
 		C46F2E1F1DACF210006A036D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
-		C4D50DDC1BFB51130053B624 /* Erik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Erik.swift; sourceTree = "<group>"; };
 		C4D50DE71BFB58EE0053B624 /* ErikOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErikOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D50DEB1BFB58EE0053B624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4DF857F1C04ADDA0002E142 /* Erik.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Erik.podspec; sourceTree = "<group>"; };
@@ -166,9 +163,9 @@
 		C42828D91BF9EDE1005EC7C3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C4D50DDC1BFB51130053B624 /* Erik.swift */,
-				C42828F51BF9EEAF005EC7C3 /* LayoutEngine.swift */,
-				C463134B1BFCE3A50078FB9D /* Document.swift */,
+				C35C578C1DB863CE00E097ED /* Document.swift */,
+				C35C578D1DB863CE00E097ED /* Erik.swift */,
+				C35C578E1DB863CE00E097ED /* LayoutEngine.swift */,
 				C4F7D01A1C0889A700EF359B /* Future */,
 			);
 			path = Sources;
@@ -417,10 +414,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D50DDD1BFB51130053B624 /* Erik.swift in Sources */,
-				C463134C1BFCE3A50078FB9D /* Document.swift in Sources */,
+				C35C578F1DB863CE00E097ED /* Document.swift in Sources */,
+				C35C57911DB863CF00E097ED /* LayoutEngine.swift in Sources */,
+				C35C57901DB863CE00E097ED /* Erik.swift in Sources */,
 				C4F7D01C1C088A0100EF359B /* Future.swift in Sources */,
-				C42828F61BF9EEAF005EC7C3 /* LayoutEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,10 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4D50DDE1BFB51130053B624 /* Erik.swift in Sources */,
-				C463134D1BFCE3FF0078FB9D /* Document.swift in Sources */,
 				C4F7D01D1C088A0100EF359B /* Future.swift in Sources */,
-				C43178891BFA3E2200C04250 /* LayoutEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
